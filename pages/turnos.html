@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<div class="gridContainer">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Proyecto Jael Marta</title>
+		<!--TIPO DE LETRA-->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Quicksand:wght@300;400&display=swap"
+			rel="stylesheet">
+		<!-- CODIGO CSS LINK -->
+		<link rel="stylesheet" href="../css/estilo.css">
+		<!--ICONO MENU RESPONSIVE-->
+		<script src="https://kit.fontawesome.com/059d8a4b62.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<!-- inicio encabezado -->
+		<div class="imagenPrincipal">
+			<a href="../index.html" class=logo><img src="../img/MN.png" alt="LOGO" width="250" height="250"></a>
+		</div>
+		<header>
+			<nav>
+				<!--menu hamburguesa-->
+				<input type="checkbox" id="check">
+				<label for="check" class="botonCheck">
+					<i class="botonResponsive fas fa-bars"></i>
+				</label>
+				<!--menu de navegacion-->
+				<ul class="menuNavegacion">
+					<li><a href="precios.html">Precios</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="turnos.html">Turnos</a></li>
+					<li><a href="modelos.html">Modelos</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--inicio de contenido-->
+		<main>
+			<h1>Turnos</h1>
+		</main>
+		<section class="formularioTurnos">
+			<article>
+				<p>Día</p>
+				<input type="number" id="number" min="1" max="31">
+				<p>Mes</p>
+				<input type="number" id="number" min="1" max="12">
+				<br>
+				<p>Datos Personales</p>
+				<input type="text" placeholder="Nombre y Apellido">
+				<br>
+				<label for="email">
+					<input type="email" placeholder="Email" name="email"><br>
+				</label>
+				<label for="Observaciones">
+					<textarea></textarea>
+				</label> <br>
+				<div>Suscribirme al Newsletter
+					<input type="checkbox" name="acepta" value="1"></div>
+				<input type="reset" value="Limpiar Formulario">
+				<input type="submit" value="Enviar">
+				</form>
+			</article>
+		</section>
+		<section class="instrucciones">
+			<ol>
+				<li>Elegí Día</li>
+				<li>Elegí Horario</li>
+				<li>Completa tus Datos</li>
+				<li>Pagá</li>
+			</ol>
+		</section>
+		<!--inicio de pie de pagina-->
+		<footer>
+			<p>Jael Marta</p>
+			<p><a href="https://facebook.com">Facebook</a></p>
+			<p><a href="https://instagram.com">Instagram</a></p>
+			<p><a href="https://whatsapp.com">Whatsapp</a></p>
+		</footer>
+	</body>
+</div>
+
+</html>
