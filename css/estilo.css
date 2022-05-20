@@ -117,9 +117,10 @@ header {
 
 li a:hover {
     background-color: #46244C;
-    transition: .5s;
-    border: #46244C 5px solid;
-
+    transition: .2s;
+    border: #46244C 6px solid;
+    text-decoration: none;
+    color: #f6f5f6;
 }
 
 .botonCheck {
@@ -226,13 +227,10 @@ footer a:hover {
 }
 
 /*inicio estilo modelos*/
-.imagenesNails {
-    align-items: center;
-    position: relative;
-    max-width: 30rem;
-    max-height: auto;
-
+.carousel {
+    .
 }
+
 
 
 @media only screen and (max-width: 800px) {
