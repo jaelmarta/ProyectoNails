@@ -12,6 +12,8 @@
 			rel="stylesheet">
 		<!-- CODIGO CSS LINK -->
 		<link rel="stylesheet" href="../css/estilo.css">
+		<!--BOOTSTRAP-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 		<!--ICONO MENU RESPONSIVE-->
 		<script src="https://kit.fontawesome.com/059d8a4b62.js" crossorigin="anonymous"></script>
 	</head>
@@ -41,14 +43,49 @@
 		<main>
 			<h1>Modelos</h1>
 		</main>
-		<section>
-		<div class="imagenesNails">
-			<img src="../img/nails2.png" alt="MODELO" class="modeloNails">
-			<img src="../img/nails3.png" alt="MODELO" class="modeloNails">
-			<img src="../img/nails4.png" alt="MODELO" class="modeloNails">
-			<img src="../img/nails5.png" alt="MODELO" class="modeloNails">
-			<img src="../img/nails8.png" alt="MODELO" class="modeloNails">
-		</div>
+		<section class="imagenesNails">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+				</div>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="../img/nails2.png" class="d-block w-100" alt="modelo" >
+				  </div>
+				  <div class="carousel-item">
+					<img src="../img/nails2.png" class="d-block w-100" alt="modelo">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../img/nails3.png" class="d-block w-100" alt="modelo">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../img/nails4.png" class="d-block w-100" alt="modelo">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../img/nails5.png" class="d-block w-100" alt="modelo">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../img/nails6.png" class="d-block w-100" alt="modelo">
+				  </div>
+				  <div class="carousel-item">
+					<img src="../img/nails7.png" class="d-block w-100" alt="modelo">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
 		</section>
 		<!--inicio de pie de pagina-->
 		<footer>
