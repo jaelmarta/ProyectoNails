@@ -1,9 +1,33 @@
+$pc: 1200px;
+$tablet: 800px;
+$mobile: 500px;
+
+
+
+
+@mixin resposive ($medida) {
+	@if $medida == pc {
+		@media  (max-width: $pc) {
+			@content;
+		} 
+	} @else if $medida == tablet {
+		@media (max-width: $tablet) {
+			@content; 
+		}
+	} @else if $medida == mobile {
+		@media (max-width: $mobile) {
+			@content;
+		}
+
+	}
+}
 @media only screen and (max-width: 800px) {
 	.botonCheck {
 		display: block;
 	}
 
 	.menuNavegacion {
+		@include responsive (mobile) {
 		position: fixed;
 		width: 100%;
 		height: 100vh;
@@ -11,6 +35,7 @@
 		left: -100%;
 		text-align: center;
 		transition: all 0.5s;
+		}
 	}
 
 	nav {

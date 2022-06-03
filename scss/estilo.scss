@@ -11,6 +11,21 @@ sans-serif;
 	font-family: $font_family_1;
 }
 
+$fontSize: (
+    desktop: 5em,
+    tablet: 1.5em,
+    mobile: 1em,
+);
+
+@each $dispositivo, $medida in $fontSize {
+    .estiloFuente--#{$dispositivo} {
+        font-size: $fontSize;
+    }
+}
+
+
+
+
 /*.gridContainer {
 	background-color: $background_color_1;
 	background-position: 100%;
@@ -50,6 +65,7 @@ sans-serif;
 		grid-area: section;
 	}
 }*/
+
 .imagenPrincipal {
 	background-image: url(../img/nails6.png);
 	background-size: contain;
@@ -129,12 +145,11 @@ section {
 
 h3 {
 	color: $color_3;
-	font-size: 1.5rem;
+
 }
 
 h4 {
 	color: $color_4;
-	font-size: 1.5rem;
 }
 
 footer {
