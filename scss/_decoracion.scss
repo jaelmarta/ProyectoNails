@@ -1,11 +1,11 @@
 /*decoracion del sitio*/
 .navbar {
     color: $color3 !important;
+    .imagenLogo:hover {
+        transform: scale(1.2);
+    }
+}
 
-}
-.imagenLogo:hover {
-    transform: scale(1.2);
-}
 
 h1 {
     text-align: center;
@@ -21,6 +21,21 @@ h3,
 
 
 }
+.botonBuscador {
+    color: $color3;
+    border: $color2;
+    border-radius: 5px;
+    padding:0.5em;
+    &:hover {
+        background-color: $color3;
+        color: $color1;
+    }
+}
+button {
+    color: $color3;
+
+}
+
 
 .fondo {
     background-image: url(../img/BACKGROUND.jpg);
