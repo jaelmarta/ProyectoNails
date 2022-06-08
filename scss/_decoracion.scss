@@ -1,0 +1,55 @@
+/*decoracion del sitio*/
+.navbar {
+    color: $color3 !important;
+
+}
+.imagenLogo:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+h2,
+h3,
+.bienvenidos {
+    text-align: justify;
+    color: $color3;
+
+
+}
+
+.fondo {
+    background-image: url(../img/BACKGROUND.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+i {
+    color: $color3;
+    
+    &:hover {
+        transform: scale(1.5);
+        transition: 5;
+    }
+}
+
+footer {
+
+
+    li {
+
+        text-decoration: none;
+        list-style: none;
+        font-size: 1.5em;
+
+    }
+
+    li:hover {
+        color: $color4;
+    }
+
+}
