@@ -21,40 +21,26 @@
 
 <body>
 	<div class="container-fluid">
-		<header>
-			<!--menu de navegacion-->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light" class="navbar">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a class="navbar-brand" href="../index.html"><img class="imagenLogo" src="../img/MN.png" alt="LOGO" width="250"
-						height="250"></a>
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link" href="precios.html">Precios</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="modelos.html">Modelos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="turnos.html">Turnos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contacto.html">Contacto</a>
-						</li>
-					</ul>
-					<form class="d-flex">
-						<input class="form-control me-2" type="search" aria-label="Search">
-						<button class="botonBuscador" class="btn btn-outline-success" type="submit">Buscar</button>					</form>
+				<!--menu de navegacion-->
+				<div class="imagenPrincipal">
+					<a href="../index.html" class=logo><img src="../img/MN.png" alt="LOGO" width="250" height="250"></a>
 				</div>
-	</div>
-	</nav>
-	</div>
-	</div>
-	</header>
+				<header>
+					<nav>
+						<!--menu hamburguesa-->
+									<input type="checkbox" id="check">
+									<label for="check" class="botonCheck">
+										<i class="fa-solid fa-bars"></i>
+									</label>
+						<!--menu de navegacion-->
+						<ul class="menuNavegacion">
+							<li><a href="../pages/precios.html">Precios</a></li>
+							<li><a href="../pages/contacto.html">Contacto</a></li>
+							<li><a href="../pages/turnos.html">Turnos</a></li>
+							<li><a href="../pages/modelos.html">Modelos</a></li>
+						</ul>
+					</nav>
+				</header>
 	<!--inicio de contenido-->
 	<main>
 		<h1>Turnos</h1>

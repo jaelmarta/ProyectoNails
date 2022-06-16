@@ -1,9 +1,59 @@
 /*decoracion del sitio*/
-.navbar {
-    color: $color3 !important;
-    .imagenLogo:hover {
-        transform: scale(1.2);
-    }
+header {
+    position: sticky;
+    background: $color3;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border: $color3 10px solid;
+}
+
+
+.logo {
+    display: flex;
+    background-color: #f6f5f6;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.menuNavegacion a {
+    text-decoration: none;
+    color: $color4;
+    list-style-type: none;
+    font-size: 1.5rem;
+    width: 100%;
+    top: 0%;
+    margin: 1rem;
+    border-radius: 5px;
+
+}
+
+
+.botonCheck {
+    font-size: 1.5rem;
+    color: #46244C;
+    text-align: center;
+    display:none;
+}
+
+#check {
+    display: none;
+}
+
+
+nav a:hover {
+    background-color: #46244C;
+    transition: .2s;
+    border: #46244C 6px solid;
+    text-decoration: none;
+    color: #f6f5f6;
+}
+
+
+li {
+    background-color: transparent;
+    margin-right: 1rem;
+    display: inline-block;
 }
 
 
@@ -21,21 +71,6 @@ h3,
 
 
 }
-.botonBuscador {
-    color: $color3;
-    border: $color2;
-    border-radius: 5px;
-    padding:0.5em;
-    &:hover {
-        background-color: $color3;
-        color: $color1;
-    }
-}
-button {
-    color: $color3;
-
-}
-
 
 .fondo {
     background-image: url(../img/BACKGROUND.jpg);
@@ -43,20 +78,21 @@ button {
     background-repeat: no-repeat;
 }
 
-i {
-    color: $color3;
-    
-    &:hover {
-        transform: scale(1.5);
-        transition: 5;
-    }
-}
+
 
 footer {
 
+    i {
+        color: $color4;
+
+        &:hover {
+            transform: scale(1.5);
+            transition: 5;
+            color: $color3;
+        }
+    }
 
     li {
-
         text-decoration: none;
         list-style: none;
         font-size: 1.5em;
