@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-.navbar {
-    padding: 1em;
-    margin-top: 1em;
-
-}
 
 h1,
 h2,
@@ -16,13 +11,30 @@ h3 {
     padding: 1em;
 
 }
+body {
+    height: 100vh;
+}
+.contenidoPrincipal {
+    justify-content: center;
 
-.fondo {
-    margin-top: 1em;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    }
+.mapa {
+    width: 100%;
+    text-align: center;    
+}
+
+.imagenPrincipal {
+    width: 100%;
 }
 
 .formularioTurnos {
     margin: 2em;
+    text-align: center;
 }
 .formularioContacto {
     margin: 2em;
@@ -32,15 +44,18 @@ h3 {
     margin: 5em;
     
 }
-.tablaPrecios {
-    margin: 10em;
-}
+
 
 #imagenesNails {
     margin-left: 20%;
     margin-right: 20%;
 
 }
+table {
+    width: 100%;
+    align-items: center;
+}
+
 footer {
     .redes {
         text-align: center;
@@ -63,5 +78,6 @@ footer {
         padding: 1em;
 
     }
+    
 
 }

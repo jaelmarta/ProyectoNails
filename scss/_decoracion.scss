@@ -6,15 +6,16 @@ header {
     text-align: center;
     width: 100%;
     border: $color3 10px solid;
+
 }
 
 
-.logo {
-    display: flex;
+.imagenPrincipal {
     background-color: #f6f5f6;
-    justify-content: center;
-    margin-top: 1%;
+    text-align: center;
+
 }
+
 
 .menuNavegacion a {
     text-decoration: none;
@@ -33,7 +34,7 @@ header {
     font-size: 1.5rem;
     color: #46244C;
     text-align: center;
-    display:none;
+    display: none;
 }
 
 #check {
@@ -59,26 +60,32 @@ li {
 
 h1 {
     text-align: center;
-
-
+    color: $color4;
 }
 
 h2,
-h3,
-.bienvenidos {
+h3 {
     text-align: justify;
     color: $color3;
 
 
 }
 
+
 .fondo {
-    background-image: url(../img/BACKGROUND.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.listaPrecios {
+    h2 {
+        font-size: 2em;
+    }
 
+    td {
+        font-size: 1.3em;
+    }
+}
 
 footer {
 

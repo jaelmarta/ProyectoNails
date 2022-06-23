@@ -41,6 +41,15 @@
   #check:checked ~ .menuNavegacion {
     left: 0%;
   }
+  .listaPrecios h2 {
+    font-size: 1.5em;
+  }
+  .listaPrecios td {
+    font-size: 0.5em;
+  }
+  .mapa {
+    width: 100%;
+  }
 }
 
 /*estructura del sitio*/
@@ -49,23 +58,39 @@
   padding: 0;
 }
 
-.navbar {
-  padding: 1em;
-  margin-top: 1em;
-}
-
 h1,
 h2,
 h3 {
   padding: 1em;
 }
 
-.fondo {
-  margin-top: 1em;
+body {
+  height: 100vh;
+}
+
+.contenidoPrincipal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
+}
+
+.imagenPrincipal {
+  width: 100%;
 }
 
 .formularioTurnos {
   margin: 2em;
+  text-align: center;
 }
 
 .formularioContacto {
@@ -77,13 +102,16 @@ h3 {
   margin: 5em;
 }
 
-.tablaPrecios {
-  margin: 10em;
-}
-
 #imagenesNails {
   margin-left: 20%;
   margin-right: 20%;
+}
+
+table {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer .redes {
@@ -120,15 +148,9 @@ header {
   border: #E9A6A6 10px solid;
 }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.imagenPrincipal {
   background-color: #f6f5f6;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 1%;
+  text-align: center;
 }
 
 .menuNavegacion a {
@@ -170,19 +192,26 @@ li {
 
 h1 {
   text-align: center;
+  color: #864879;
 }
 
 h2,
-h3,
-.bienvenidos {
+h3 {
   text-align: justify;
   color: #E9A6A6;
 }
 
 .fondo {
-  background-image: url(../img/BACKGROUND.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.listaPrecios h2 {
+  font-size: 2em;
+}
+
+.listaPrecios td {
+  font-size: 1.3em;
 }
 
 footer i {

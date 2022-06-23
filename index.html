@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	<div class="container-fluid" class="navbar">
+	<div>
 		<!--menu de navegacion-->
 		<div class="imagenPrincipal">
 			<a href="index.html" class=logo><img src="img/MN.png" alt="LOGO" width="250" height="250"></a>
@@ -30,34 +30,46 @@
 		<header>
 			<nav>
 				<!--menu hamburguesa-->
-							<input type="checkbox" id="check">
-							<label for="check" class="botonCheck">
-								<i class="fa-solid fa-bars"></i>
-							</label>
+				<input type="checkbox" id="check">
+				<label for="check" class="botonCheck">
+					<i class="fa-solid fa-bars"></i>
+				</label>
 				<!--menu de navegacion-->
 				<ul class="menuNavegacion">
 					<li><a href="pages/precios.html">Precios</a></li>
 					<li><a href="pages/contacto.html">Contacto</a></li>
-					<li><a href="pages/turnos.html">Turnos</a></li>
+					<li><a href="pages/direccion.html">Direccion</a></li>
 					<li><a href="pages/modelos.html">Modelos</a></li>
 				</ul>
 			</nav>
 		</header>
 		<!--inicio contenido-->
-		<div class="fondo">
+		<div>
 			<main>
 				<h1 class="bienvenidos">¡Bienvenidos!</h1>
 			</main>
 			<section>
-				<article class="contenido">
-					<h2>Hoy en día las uñas han cobrado una gran importancia en el mundo de la moda, siendo un accesorio
-						imprescindible para lucir radiante y con un look completo.</h2>
-					<h3>Te invitamos a conocernos y que vengas a regalarte un dia de máximo confort y relajación.</h3>
-				</article>
+				<div class="contenidoPrincipal">
+					<div class="txt">
+						<article>
+							<h2>Hoy en día las uñas han cobrado una gran importancia en el mundo de la moda, siendo un
+								accesorio
+								imprescindible para lucir radiante y con un look completo.</h2>
+							<h3>Te invitamos a conocernos y que vengas a regalarte un dia de máximo confort y
+								relajación.
+							</h3>
+						</article>
+
+					</div>
+					<div class="videoNails">
+						<video src="./img/videonails1.mp4" autoplay="true" muted="true" loop="true"></video>
+					</div>
+					
+				</div>
 			</section>
 		</div>
 		<!--inicio pie de pagina-->
-		<div class="col" class="container">
+		<div class="row">
 			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
 				<div class="col-md-4 d-flex align-items-center">
 					<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
