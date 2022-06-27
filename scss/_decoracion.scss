@@ -1,10 +1,8 @@
 /*decoracion del sitio*/
 header {
-    position: sticky;
     background: $color3;
     text-decoration: none;
     text-align: center;
-    width: 100%;
     border: $color3 10px solid;
 
 }
@@ -13,6 +11,7 @@ header {
 .imagenPrincipal {
     background-color: #f6f5f6;
     text-align: center;
+
 
 }
 
@@ -60,13 +59,13 @@ li {
 
 h1 {
     text-align: center;
-    color: $color4;
+    color: $color1;
 }
 
 h2,
 h3 {
     text-align: justify;
-    color: $color3;
+    color: $color4;
 
 
 }
@@ -76,7 +75,20 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.formularioContacto {
 
+    text-decoration: #864879;
+
+    button {
+        color:#46244C;
+        border: #46244C 2px solid;
+
+    }
+    button:hover {
+        color: #E9A6A6;
+        border: #E9A6A6 2px solid;
+    }
+}
 .listaPrecios {
     h2 {
         font-size: 2em;

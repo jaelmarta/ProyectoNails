@@ -5,6 +5,17 @@
 }
 
 
+
+.carrusel {
+    z-index:-1;
+}
+#navegacion {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
+
 h1,
 h2,
 h3 {
@@ -23,10 +34,12 @@ video {
     width: 100%;
     height: auto;
     }
-.mapa {
-    width: 100%;
-    text-align: center;    
-}
+
+
+iframe {
+    max-width: 100%;
+    height: auto;
+   }
 
 .imagenPrincipal {
     width: 100%;
